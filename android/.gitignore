@@ -1,0 +1,36 @@
+# Gradle files
+.gradle/
+gradle-wrapper.jar
+gradlew
+gradlew.bat
+local.properties
+
+# Android Studio
+captures/
+.externalNativeBuild/
+.cxx/
+.idea/
+
+# Generated files
+GeneratedPluginRegistrant.java
+app/debug/
+app/profile/
+app/release/
+bin/
+gen/
+out/
+build/
+
+# Sensitive files
+google-services.json
+key.properties
+*.keystore
+*.jks
+
+# Build artifacts
+.navigation/
+output.json
+output-metadata.json
+*.apk
+*.ap_
+*.aab
