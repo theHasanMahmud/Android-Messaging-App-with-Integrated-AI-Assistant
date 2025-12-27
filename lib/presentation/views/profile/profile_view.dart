@@ -61,43 +61,45 @@ class ProfileView extends StatelessWidget {
       builder: (context, authState) {
         return BlocBuilder<ChatSessionCubit, ChatSessionState>(
           builder: (context, chatState) {
-            // Check if Stream Chat is ready
-            if (!_isStreamChatReady(context, chatState)) {
+            // Always try to show profile even if chat isn't fully ready
+            // This prevents blank white screens
+            try {
+              // Extract user information (works even without chat ready)
+              final userInfo = _extractUserInfo(authState, chatState);
+
+              // Build profile UI
+              return Container(
+                color: backgroundGrey,
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      ProfileViewCoverCard(
+                        userName: userInfo.userName,
+                        userPhotoUrl: userInfo.photoUrl,
+                        userId: userInfo.userId,
+                        userPhoneNumber: userInfo.phoneNumber,
+                      ),
+                      ProfileViewStatusCard(
+                        isUserBannedStatus: userInfo.isUserBanned,
+                      ),
+                      ProfileViewDetails(
+                        createdAt: userInfo.createdAt,
+                        isUserBannedStatus: userInfo.isUserBanned,
+                      ),
+                      ProfileViewContactCard(
+                        userPhoneNumber: userInfo.phoneNumber,
+                        userId: userInfo.userId,
+                      ),
+                      const ProfileViewSignOutButton(),
+                      const SizedBox(height: 24),
+                    ],
+                  ),
+                ),
+              );
+            } catch (e) {
+              // Fallback: show loading if there's an error
               return const ProfileViewLoadingView();
             }
-
-            // Extract user information
-            final userInfo = _extractUserInfo(authState, chatState);
-
-            // Build profile UI
-            return Container(
-              color: backgroundGrey,
-              child: SingleChildScrollView(
-                child: Column(
-                  children: [
-                    ProfileViewCoverCard(
-                      userName: userInfo.userName,
-                      userPhotoUrl: userInfo.photoUrl,
-                      userId: userInfo.userId,
-                      userPhoneNumber: userInfo.phoneNumber,
-                    ),
-                    ProfileViewStatusCard(
-                      isUserBannedStatus: userInfo.isUserBanned,
-                    ),
-                    ProfileViewDetails(
-                      createdAt: userInfo.createdAt,
-                      isUserBannedStatus: userInfo.isUserBanned,
-                    ),
-                    ProfileViewContactCard(
-                      userPhoneNumber: userInfo.phoneNumber,
-                      userId: userInfo.userId,
-                    ),
-                    const ProfileViewSignOutButton(),
-                    const SizedBox(height: 24),
-                  ],
-                ),
-              ),
-            );
           },
         );
       },
@@ -133,13 +135,34 @@ class ProfileView extends StatelessWidget {
   /// Extracts and formats user information from state objects
   ({String userName, String photoUrl, String userId, String phoneNumber, String createdAt, bool isUserBanned})
       _extractUserInfo(AuthSessionState authState, ChatSessionState chatState) {
+    // Provide safe defaults for all fields
+    final userName = authState.authUser.userName ?? 'User';
+    final photoUrl = authState.authUser.photoUrl ?? '';
+    final userId = authState.authUser.id.length > 25 
+        ? authState.authUser.id.replaceRange(8, 25, '*****')
+        : authState.authUser.id;
+    final phoneNumber = authState.authUser.phoneNumber;
+    
+    // Safely get chat user data with fallbacks
+    String createdAt = 'N/A';
+    bool isUserBanned = false;
+    
+    try {
+      if (chatState.chatUser.createdAt.isNotEmpty) {
+        createdAt = chatState.chatUser.createdAt;
+      }
+      isUserBanned = chatState.chatUser.isUserBanned;
+    } catch (e) {
+      // Use default values if chat data not available
+    }
+
     return (
-      userName: authState.authUser.userName ?? '',
-      photoUrl: authState.authUser.photoUrl ?? '',
-      userId: authState.authUser.id.replaceRange(8, 25, '*****'),
-      phoneNumber: authState.authUser.phoneNumber,
-      createdAt: chatState.chatUser.createdAt,
-      isUserBanned: chatState.chatUser.isUserBanned
+      userName: userName,
+      photoUrl: photoUrl,
+      userId: userId,
+      phoneNumber: phoneNumber,
+      createdAt: createdAt,
+      isUserBanned: isUserBanned
     );
   }
 }
