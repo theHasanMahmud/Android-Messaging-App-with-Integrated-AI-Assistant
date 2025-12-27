@@ -204,7 +204,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Username must be between 3-20 characters with no special characters';
 
   @override
-  String get appName => 'Flutter Social Chat';
+  String get appName => 'Adda Time';
 
   @override
   String get appTagline => 'Stay connected with friends and family';

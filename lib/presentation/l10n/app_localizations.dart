@@ -457,7 +457,7 @@ abstract class AppLocalizations {
   /// No description provided for @appName.
   ///
   /// In en, this message translates to:
-  /// **'Flutter Social Chat'**
+  /// **'Adda Time'**
   String get appName;
 
   /// No description provided for @appTagline.
