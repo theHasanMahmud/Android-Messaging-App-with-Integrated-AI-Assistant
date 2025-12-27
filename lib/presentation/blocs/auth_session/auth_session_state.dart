@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:bondhu/domain/models/auth/auth_user_model.dart';
+import 'package:adda_time/domain/models/auth/auth_user_model.dart';
 
 /// Represents the state of the user's authentication session
 ///

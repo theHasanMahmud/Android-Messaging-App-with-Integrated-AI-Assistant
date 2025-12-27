@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:bondhu/core/constants/enums/auth_failure_enum.dart';
+import 'package:adda_time/core/constants/enums/auth_failure_enum.dart';
 import 'package:fpdart/fpdart.dart';
 
 class PhoneNumberSignInState extends Equatable {

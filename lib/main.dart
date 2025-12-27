@@ -1,9 +1,9 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:bondhu/core/di/dependency_injector.dart';
-import 'package:bondhu/firebase_options.dart';
-import 'package:bondhu/core/init/app_widget.dart';
-import 'package:bondhu/core/config/env_config.dart';
+import 'package:adda_time/core/di/dependency_injector.dart';
+import 'package:adda_time/firebase_options.dart';
+import 'package:adda_time/core/init/app_widget.dart';
+import 'package:adda_time/core/config/env_config.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:path_provider/path_provider.dart';
 

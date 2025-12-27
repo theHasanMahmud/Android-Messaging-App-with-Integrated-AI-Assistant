@@ -1,19 +1,19 @@
 import 'package:flutter/foundation.dart';
-import 'package:bondhu/core/interfaces/i_auth_repository.dart';
-import 'package:bondhu/domain/models/chat/chat_user_model.dart';
-import 'package:bondhu/core/interfaces/i_chat_repository.dart';
-import 'package:bondhu/data/extensions/chat/chat_user_extensions.dart';
-import 'package:bondhu/core/constants/enums/chat_failure_enum.dart';
-import 'package:bondhu/core/config/env_config.dart';
-import 'package:bondhu/core/services/chat_preferences_service.dart';
+import 'package:adda_time/core/interfaces/i_auth_repository.dart';
+import 'package:adda_time/domain/models/chat/chat_user_model.dart';
+import 'package:adda_time/core/interfaces/i_chat_repository.dart';
+import 'package:adda_time/data/extensions/chat/chat_user_extensions.dart';
+import 'package:adda_time/core/constants/enums/chat_failure_enum.dart';
+import 'package:adda_time/core/config/env_config.dart';
+import 'package:adda_time/core/services/chat_preferences_service.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart' hide Unit;
 import 'package:stream_chat_flutter/stream_chat_flutter.dart' as sc hide Unit;
 import 'dart:convert';
 import 'dart:math';
 import 'package:crypto/crypto.dart';
-import 'package:bondhu/core/security/e2ee.dart';
-import 'package:bondhu/core/security/key_manager.dart';
+import 'package:adda_time/core/security/e2ee.dart';
+import 'package:adda_time/core/security/key_manager.dart';
 import 'package:cryptography/cryptography.dart' as crypto;
 import 'package:cloud_firestore/cloud_firestore.dart';
 

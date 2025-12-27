@@ -1,16 +1,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bondhu/presentation/blocs/chat_management/chat_management_cubit.dart';
-import 'package:bondhu/presentation/blocs/chat_management/chat_management_state.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/presentation/design_system/widgets/custom_app_bar.dart';
-import 'package:bondhu/presentation/design_system/widgets/custom_progress_indicator.dart';
-import 'package:bondhu/presentation/design_system/widgets/popscope_scaffold.dart';
-import 'package:bondhu/core/constants/enums/router_enum.dart';
+import 'package:adda_time/presentation/blocs/chat_management/chat_management_cubit.dart';
+import 'package:adda_time/presentation/blocs/chat_management/chat_management_state.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/presentation/design_system/widgets/custom_app_bar.dart';
+import 'package:adda_time/presentation/design_system/widgets/custom_progress_indicator.dart';
+import 'package:adda_time/presentation/design_system/widgets/popscope_scaffold.dart';
+import 'package:adda_time/core/constants/enums/router_enum.dart';
 import 'package:go_router/go_router.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
-import 'package:bondhu/presentation/views/create_chat/widgets/create_chat_view_body.dart';
+import 'package:adda_time/presentation/views/create_chat/widgets/create_chat_view_body.dart';
 
 class CreateChatView extends StatefulWidget {
   const CreateChatView({super.key, required this.userListController, this.isCreateNewChatPageForCreatingGroup});

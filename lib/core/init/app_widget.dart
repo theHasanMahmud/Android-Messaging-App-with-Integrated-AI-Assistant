@@ -1,17 +1,17 @@
 import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bondhu/presentation/l10n/app_localizations.dart';
-import 'package:bondhu/presentation/blocs/profile_management/profile_manager_cubit.dart';
-import 'package:bondhu/presentation/blocs/chat_management/chat_management_cubit.dart';
-import 'package:bondhu/presentation/blocs/chat_session/chat_session_cubit.dart';
-import 'package:bondhu/presentation/blocs/connectivity/connectivity_cubit.dart';
-import 'package:bondhu/presentation/blocs/connectivity/connectivity_state.dart';
-import 'package:bondhu/presentation/design_system/theme.dart';
-import 'package:bondhu/core/di/dependency_injector.dart';
-import 'package:bondhu/core/init/router/app_router.dart';
-import 'package:bondhu/presentation/blocs/phone_number_sign_in/phone_number_sign_in_cubit.dart';
-import 'package:bondhu/presentation/blocs/auth_session/auth_session_cubit.dart';
+import 'package:adda_time/presentation/l10n/app_localizations.dart';
+import 'package:adda_time/presentation/blocs/profile_management/profile_manager_cubit.dart';
+import 'package:adda_time/presentation/blocs/chat_management/chat_management_cubit.dart';
+import 'package:adda_time/presentation/blocs/chat_session/chat_session_cubit.dart';
+import 'package:adda_time/presentation/blocs/connectivity/connectivity_cubit.dart';
+import 'package:adda_time/presentation/blocs/connectivity/connectivity_state.dart';
+import 'package:adda_time/presentation/design_system/theme.dart';
+import 'package:adda_time/core/di/dependency_injector.dart';
+import 'package:adda_time/core/init/router/app_router.dart';
+import 'package:adda_time/presentation/blocs/phone_number_sign_in/phone_number_sign_in_cubit.dart';
+import 'package:adda_time/presentation/blocs/auth_session/auth_session_cubit.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
 
 class AppWidget extends StatelessWidget {

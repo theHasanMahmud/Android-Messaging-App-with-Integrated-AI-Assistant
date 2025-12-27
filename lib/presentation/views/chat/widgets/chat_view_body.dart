@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/presentation/design_system/widgets/custom_progress_indicator.dart';
-import 'package:bondhu/presentation/design_system/widgets/custom_text.dart';
-import 'package:bondhu/presentation/l10n/app_localizations.dart';
-import 'package:bondhu/presentation/views/chat/widgets/chat_view_thread_widget.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/presentation/design_system/widgets/custom_progress_indicator.dart';
+import 'package:adda_time/presentation/design_system/widgets/custom_text.dart';
+import 'package:adda_time/presentation/l10n/app_localizations.dart';
+import 'package:adda_time/presentation/views/chat/widgets/chat_view_thread_widget.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
 import 'package:get_it/get_it.dart';
-import 'package:bondhu/core/interfaces/i_chat_repository.dart';
+import 'package:adda_time/core/interfaces/i_chat_repository.dart';
 
 class ChatViewBody extends StatelessWidget {
   const ChatViewBody({super.key});

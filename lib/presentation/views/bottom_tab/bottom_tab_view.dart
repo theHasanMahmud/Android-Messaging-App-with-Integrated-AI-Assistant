@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bondhu/core/constants/enums/router_enum.dart';
-import 'package:bondhu/presentation/blocs/auth_session/auth_session_cubit.dart';
-import 'package:bondhu/presentation/blocs/auth_session/auth_session_state.dart';
-import 'package:bondhu/presentation/blocs/chat_session/chat_session_cubit.dart';
-import 'package:bondhu/presentation/blocs/chat_session/chat_session_state.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/presentation/design_system/widgets/custom_progress_indicator.dart';
-import 'package:bondhu/presentation/design_system/widgets/popscope_scaffold.dart';
-import 'package:bondhu/core/di/dependency_injector.dart';
-import 'package:bondhu/presentation/views/bottom_tab/widgets/bottom_navigation_builder.dart';
+import 'package:adda_time/core/constants/enums/router_enum.dart';
+import 'package:adda_time/presentation/blocs/auth_session/auth_session_cubit.dart';
+import 'package:adda_time/presentation/blocs/auth_session/auth_session_state.dart';
+import 'package:adda_time/presentation/blocs/chat_session/chat_session_cubit.dart';
+import 'package:adda_time/presentation/blocs/chat_session/chat_session_state.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/presentation/design_system/widgets/custom_progress_indicator.dart';
+import 'package:adda_time/presentation/design_system/widgets/popscope_scaffold.dart';
+import 'package:adda_time/core/di/dependency_injector.dart';
+import 'package:adda_time/presentation/views/bottom_tab/widgets/bottom_navigation_builder.dart';
 import 'package:go_router/go_router.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
 

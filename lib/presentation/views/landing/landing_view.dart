@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bondhu/presentation/l10n/app_localizations.dart';
-import 'package:bondhu/core/constants/enums/router_enum.dart';
-import 'package:bondhu/presentation/blocs/auth_session/auth_session_cubit.dart';
-import 'package:bondhu/presentation/blocs/auth_session/auth_session_state.dart';
-import 'package:bondhu/presentation/design_system/widgets/popscope_scaffold.dart';
-import 'package:bondhu/presentation/views/landing/widgets/landing_background.dart';
-import 'package:bondhu/presentation/views/landing/widgets/landing_content.dart';
+import 'package:adda_time/presentation/l10n/app_localizations.dart';
+import 'package:adda_time/core/constants/enums/router_enum.dart';
+import 'package:adda_time/presentation/blocs/auth_session/auth_session_cubit.dart';
+import 'package:adda_time/presentation/blocs/auth_session/auth_session_state.dart';
+import 'package:adda_time/presentation/design_system/widgets/popscope_scaffold.dart';
+import 'package:adda_time/presentation/views/landing/widgets/landing_background.dart';
+import 'package:adda_time/presentation/views/landing/widgets/landing_content.dart';
 import 'package:go_router/go_router.dart';
 import 'dart:async';
 

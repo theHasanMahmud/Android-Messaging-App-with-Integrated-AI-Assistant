@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/presentation/design_system/widgets/keyboard_dismiss_wrapper.dart';
-import 'package:bondhu/presentation/gen/assets.gen.dart';
-import 'package:bondhu/presentation/views/sign_in/widgets/sign_in_view_input_card.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/presentation/design_system/widgets/keyboard_dismiss_wrapper.dart';
+import 'package:adda_time/presentation/gen/assets.gen.dart';
+import 'package:adda_time/presentation/views/sign_in/widgets/sign_in_view_input_card.dart';
 import 'package:lottie/lottie.dart';
 
 /// The main content of the sign-in view

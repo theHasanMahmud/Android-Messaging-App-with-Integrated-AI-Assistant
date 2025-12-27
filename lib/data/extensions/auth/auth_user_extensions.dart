@@ -1,5 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:bondhu/domain/models/auth/auth_user_model.dart';
+import 'package:adda_time/domain/models/auth/auth_user_model.dart';
 
 /// Extension to convert Firebase User to our domain model
 extension AuthUserMapperExtensions on User {

@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bondhu/presentation/blocs/connectivity/connectivity_state.dart';
+import 'package:adda_time/presentation/blocs/connectivity/connectivity_state.dart';
 import 'package:flutter/foundation.dart';
 
 /// Cubit that manages the device's connectivity state

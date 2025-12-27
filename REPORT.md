@@ -9,7 +9,7 @@
 
 ## 📋 Project Title
 
-**Bondhu: To Understand the Technology of Secure Real-Time Messaging Systems**
+**Adda Time: To Understand the Technology of Secure Real-Time Messaging Systems**
 
 A comprehensive mobile application demonstrating modern messaging technologies including end-to-end encryption, real-time communication, and advanced privacy features.
 

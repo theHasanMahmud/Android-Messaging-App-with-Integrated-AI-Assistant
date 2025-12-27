@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/presentation/design_system/widgets/custom_text.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/presentation/design_system/widgets/custom_text.dart';
 
 class ProfileViewContactInfoWidget extends StatelessWidget {
   const ProfileViewContactInfoWidget({

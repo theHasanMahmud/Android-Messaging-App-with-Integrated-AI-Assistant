@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:bondhu/presentation/l10n/app_localizations.dart';
-import 'package:bondhu/core/constants/enums/router_enum.dart';
-import 'package:bondhu/core/services/chat_preferences_service.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/presentation/design_system/widgets/custom_text.dart';
-import 'package:bondhu/presentation/views/dashboard/widgets/dashboard_view_messages_card.dart';
-import 'package:bondhu/presentation/views/archived_chats/archived_chats_view.dart';
-import 'package:bondhu/presentation/views/hidden_chats/hidden_chats_view.dart';
+import 'package:adda_time/presentation/l10n/app_localizations.dart';
+import 'package:adda_time/core/constants/enums/router_enum.dart';
+import 'package:adda_time/core/services/chat_preferences_service.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/presentation/design_system/widgets/custom_text.dart';
+import 'package:adda_time/presentation/views/dashboard/widgets/dashboard_view_messages_card.dart';
+import 'package:adda_time/presentation/views/archived_chats/archived_chats_view.dart';
+import 'package:adda_time/presentation/views/hidden_chats/hidden_chats_view.dart';
 import 'package:go_router/go_router.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
 

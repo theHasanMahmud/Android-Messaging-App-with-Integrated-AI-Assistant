@@ -4,11 +4,11 @@ import 'dart:async';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bondhu/presentation/blocs/auth_session/auth_session_cubit.dart';
-import 'package:bondhu/presentation/blocs/chat_management/chat_management_state.dart';
-import 'package:bondhu/core/interfaces/i_chat_repository.dart';
-import 'package:bondhu/core/constants/enums/chat_failure_enum.dart';
-import 'package:bondhu/data/extensions/auth/database_extensions.dart';
+import 'package:adda_time/presentation/blocs/auth_session/auth_session_cubit.dart';
+import 'package:adda_time/presentation/blocs/chat_management/chat_management_state.dart';
+import 'package:adda_time/core/interfaces/i_chat_repository.dart';
+import 'package:adda_time/core/constants/enums/chat_failure_enum.dart';
+import 'package:adda_time/data/extensions/auth/database_extensions.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
 
 /// Manages chat-related functionality including channel creation, user selection,

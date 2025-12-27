@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/presentation/gen/assets.gen.dart';
-import 'package:bondhu/presentation/views/profile/widgets/profile_view_header.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/presentation/gen/assets.gen.dart';
+import 'package:adda_time/presentation/views/profile/widgets/profile_view_header.dart';
 
 /// Card that displays the profile cover image with the user's header information
 ///

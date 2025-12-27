@@ -19,7 +19,7 @@
 │                                                                              │
 │                          [App Logo/Icon]                                     │
 │                                                                              │
-│                             Bondhu                                           │
+│                          Adda Time                                           │
 │                   Connect with friends securely                              │
 │                                                                              │
 │                                                                              │
@@ -853,4 +853,4 @@ graph TD
 
 **Documentation Version**: 1.0  
 **Last Updated**: December 28, 2025  
-**Project**: Bondhu
+**Project**: Adda Time

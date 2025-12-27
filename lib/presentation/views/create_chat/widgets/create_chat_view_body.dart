@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bondhu/presentation/l10n/app_localizations.dart';
-import 'package:bondhu/presentation/blocs/chat_management/chat_management_cubit.dart';
-import 'package:bondhu/presentation/blocs/chat_management/chat_management_state.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/presentation/design_system/widgets/custom_progress_indicator.dart';
-import 'package:bondhu/presentation/design_system/widgets/custom_text.dart';
-import 'package:bondhu/presentation/views/create_chat/widgets/create_chat_view_new_chat_button.dart';
-import 'package:bondhu/presentation/views/create_chat/widgets/create_chat_view_creating_group_chat_page_details.dart';
-import 'package:bondhu/presentation/views/create_chat/widgets/create_chat_view_user_list_view.dart';
+import 'package:adda_time/presentation/l10n/app_localizations.dart';
+import 'package:adda_time/presentation/blocs/chat_management/chat_management_cubit.dart';
+import 'package:adda_time/presentation/blocs/chat_management/chat_management_state.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/presentation/design_system/widgets/custom_progress_indicator.dart';
+import 'package:adda_time/presentation/design_system/widgets/custom_text.dart';
+import 'package:adda_time/presentation/views/create_chat/widgets/create_chat_view_new_chat_button.dart';
+import 'package:adda_time/presentation/views/create_chat/widgets/create_chat_view_creating_group_chat_page_details.dart';
+import 'package:adda_time/presentation/views/create_chat/widgets/create_chat_view_user_list_view.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
 
 /// A stateless widget that displays the body content of the create chat view.

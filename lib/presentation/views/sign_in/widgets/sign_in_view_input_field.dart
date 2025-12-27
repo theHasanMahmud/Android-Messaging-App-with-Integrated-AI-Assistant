@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bondhu/presentation/l10n/app_localizations.dart';
-import 'package:bondhu/presentation/blocs/phone_number_sign_in/phone_number_sign_in_cubit.dart';
-import 'package:bondhu/presentation/blocs/phone_number_sign_in/phone_number_sign_in_state.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/presentation/design_system/styles/input_styles.dart';
-import 'package:bondhu/presentation/design_system/widgets/custom_text.dart';
+import 'package:adda_time/presentation/l10n/app_localizations.dart';
+import 'package:adda_time/presentation/blocs/phone_number_sign_in/phone_number_sign_in_cubit.dart';
+import 'package:adda_time/presentation/blocs/phone_number_sign_in/phone_number_sign_in_state.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/presentation/design_system/styles/input_styles.dart';
+import 'package:adda_time/presentation/design_system/widgets/custom_text.dart';
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
 
 /// Widget for handling phone number input with validation

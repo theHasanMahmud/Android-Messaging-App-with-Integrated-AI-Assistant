@@ -2,12 +2,12 @@
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bondhu/presentation/blocs/profile_management/profile_manager_state.dart';
-import 'package:bondhu/presentation/blocs/auth_session/auth_session_cubit.dart';
-import 'package:bondhu/core/interfaces/i_auth_repository.dart';
-import 'package:bondhu/core/interfaces/i_chat_repository.dart';
+import 'package:adda_time/presentation/blocs/profile_management/profile_manager_state.dart';
+import 'package:adda_time/presentation/blocs/auth_session/auth_session_cubit.dart';
+import 'package:adda_time/core/interfaces/i_auth_repository.dart';
+import 'package:adda_time/core/interfaces/i_chat_repository.dart';
 import 'package:flutter/foundation.dart';
-import 'package:bondhu/core/security/key_manager.dart';
+import 'package:adda_time/core/security/key_manager.dart';
 
 /// Manages user profile creation and validation
 ///

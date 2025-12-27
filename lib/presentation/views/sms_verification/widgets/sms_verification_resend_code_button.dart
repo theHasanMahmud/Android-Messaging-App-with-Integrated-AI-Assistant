@@ -3,11 +3,11 @@ import 'dart:async';
 import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bondhu/presentation/l10n/app_localizations.dart';
-import 'package:bondhu/presentation/blocs/phone_number_sign_in/phone_number_sign_in_cubit.dart';
-import 'package:bondhu/presentation/blocs/phone_number_sign_in/phone_number_sign_in_state.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/presentation/design_system/widgets/custom_text.dart';
+import 'package:adda_time/presentation/l10n/app_localizations.dart';
+import 'package:adda_time/presentation/blocs/phone_number_sign_in/phone_number_sign_in_cubit.dart';
+import 'package:adda_time/presentation/blocs/phone_number_sign_in/phone_number_sign_in_state.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/presentation/design_system/widgets/custom_text.dart';
 
 /// Button that allows users to request a new SMS code
 class SmsVerificationResendCodeButton extends StatefulWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:bondhu/presentation/design_system/widgets/keyboard_dismiss_wrapper.dart';
+import 'package:adda_time/presentation/design_system/widgets/keyboard_dismiss_wrapper.dart';
 
 /// A scaffold with built-in PopScope handling and keyboard dismiss functionality.
 ///

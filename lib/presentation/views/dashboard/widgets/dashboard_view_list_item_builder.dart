@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bondhu/presentation/blocs/auth_session/auth_session_cubit.dart';
-import 'package:bondhu/presentation/blocs/chat_management/chat_management_cubit.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/presentation/views/dashboard/widgets/dashboard_view_searched_chat.dart';
+import 'package:adda_time/presentation/blocs/auth_session/auth_session_cubit.dart';
+import 'package:adda_time/presentation/blocs/chat_management/chat_management_cubit.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/presentation/views/dashboard/widgets/dashboard_view_searched_chat.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
 
 /// A widget for building individual channel list items with search capabilities

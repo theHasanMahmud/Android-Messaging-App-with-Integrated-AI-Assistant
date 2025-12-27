@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:bondhu/data/remote/ai_api_client.dart';
+import 'package:adda_time/data/remote/ai_api_client.dart';
 
 part 'ai_chat_state.dart';
 

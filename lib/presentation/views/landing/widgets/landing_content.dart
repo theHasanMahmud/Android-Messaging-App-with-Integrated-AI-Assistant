@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:bondhu/presentation/l10n/app_localizations.dart';
+import 'package:adda_time/presentation/l10n/app_localizations.dart';
 import 'package:lottie/lottie.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/presentation/design_system/widgets/custom_text.dart';
-import 'package:bondhu/presentation/gen/assets.gen.dart';
-import 'package:bondhu/presentation/views/landing/widgets/landing_loading_indicator.dart';
-import 'package:bondhu/presentation/views/landing/widgets/landing_status_container.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/presentation/design_system/widgets/custom_text.dart';
+import 'package:adda_time/presentation/gen/assets.gen.dart';
+import 'package:adda_time/presentation/views/landing/widgets/landing_loading_indicator.dart';
+import 'package:adda_time/presentation/views/landing/widgets/landing_status_container.dart';
 
 /// Main content widget for the landing page
 class LandingContent extends StatelessWidget {

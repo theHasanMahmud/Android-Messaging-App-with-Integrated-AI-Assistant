@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';
-import 'package:bondhu/data/remote/ai_api_client.dart';
-import 'package:bondhu/presentation/blocs/ai_chat/ai_chat_cubit.dart';
+import 'package:adda_time/data/remote/ai_api_client.dart';
+import 'package:adda_time/presentation/blocs/ai_chat/ai_chat_cubit.dart';
 
 class AiChatView extends StatelessWidget {
   const AiChatView({super.key});

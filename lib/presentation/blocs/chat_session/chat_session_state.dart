@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:bondhu/domain/models/chat/chat_user_model.dart';
+import 'package:adda_time/domain/models/chat/chat_user_model.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
 
 class ChatSessionState extends Equatable {

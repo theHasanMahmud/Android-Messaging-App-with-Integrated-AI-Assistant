@@ -2,9 +2,9 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bondhu/presentation/blocs/phone_number_sign_in/phone_number_sign_in_state.dart';
-import 'package:bondhu/core/constants/enums/auth_failure_enum.dart';
-import 'package:bondhu/core/interfaces/i_auth_repository.dart';
+import 'package:adda_time/presentation/blocs/phone_number_sign_in/phone_number_sign_in_state.dart';
+import 'package:adda_time/core/constants/enums/auth_failure_enum.dart';
+import 'package:adda_time/core/interfaces/i_auth_repository.dart';
 import 'package:fpdart/fpdart.dart';
 
 class PhoneNumberSignInCubit extends Cubit<PhoneNumberSignInState> {

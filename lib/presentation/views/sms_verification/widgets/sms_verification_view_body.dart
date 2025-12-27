@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bondhu/presentation/blocs/phone_number_sign_in/phone_number_sign_in_cubit.dart';
-import 'package:bondhu/presentation/blocs/phone_number_sign_in/phone_number_sign_in_state.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/presentation/gen/assets.gen.dart';
-import 'package:bondhu/presentation/views/sms_verification/widgets/sms_verification_confirmation_info_text_with_icon.dart';
-import 'package:bondhu/presentation/views/sms_verification/widgets/sms_verification_confirmation_text_with_icon.dart';
-import 'package:bondhu/presentation/views/sms_verification/widgets/sms_verification_resend_code_button.dart';
-import 'package:bondhu/presentation/views/sms_verification/widgets/sms_verification_pin_field.dart';
-import 'package:bondhu/presentation/views/sms_verification/widgets/sms_verification_button.dart';
+import 'package:adda_time/presentation/blocs/phone_number_sign_in/phone_number_sign_in_cubit.dart';
+import 'package:adda_time/presentation/blocs/phone_number_sign_in/phone_number_sign_in_state.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/presentation/gen/assets.gen.dart';
+import 'package:adda_time/presentation/views/sms_verification/widgets/sms_verification_confirmation_info_text_with_icon.dart';
+import 'package:adda_time/presentation/views/sms_verification/widgets/sms_verification_confirmation_text_with_icon.dart';
+import 'package:adda_time/presentation/views/sms_verification/widgets/sms_verification_resend_code_button.dart';
+import 'package:adda_time/presentation/views/sms_verification/widgets/sms_verification_pin_field.dart';
+import 'package:adda_time/presentation/views/sms_verification/widgets/sms_verification_button.dart';
 import 'package:lottie/lottie.dart';
 
 /// Main content container for the SMS verification view

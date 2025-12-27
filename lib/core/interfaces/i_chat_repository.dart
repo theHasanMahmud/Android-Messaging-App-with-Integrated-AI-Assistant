@@ -1,5 +1,5 @@
-import 'package:bondhu/core/constants/enums/chat_failure_enum.dart';
-import 'package:bondhu/domain/models/chat/chat_user_model.dart';
+import 'package:adda_time/core/constants/enums/chat_failure_enum.dart';
+import 'package:adda_time/domain/models/chat/chat_user_model.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart' hide Unit;
 

@@ -1,10 +1,10 @@
-# 💬 Bondhu
+# 💬 Adda Time
 
 ![Flutter Version](https://img.shields.io/badge/Flutter-3.0.0+-blue.svg)
 ![Dart](https://img.shields.io/badge/Dart-3.0.0+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-**Bondhu** - A modern, feature-rich social chat application built with Flutter, implementing clean MVVM architecture, end-to-end encryption, and real-time messaging capabilities. This project demonstrates advanced Flutter development practices with robust state management and security features.
+**Adda Time** - A modern, feature-rich social chat application built with Flutter, implementing clean MVVM architecture, end-to-end encryption, and real-time messaging capabilities. This project demonstrates advanced Flutter development practices with robust state management and security features.
 
 ---
 

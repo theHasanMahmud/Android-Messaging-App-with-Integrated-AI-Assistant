@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/core/constants/enums/router_enum.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/core/constants/enums/router_enum.dart';
 import 'package:go_router/go_router.dart';
 
 /// Builds the bottom navigation bar for the main app UI

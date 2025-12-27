@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:bondhu/presentation/l10n/app_localizations.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/presentation/views/profile/widgets/profile_view_activity_status_widget.dart';
+import 'package:adda_time/presentation/l10n/app_localizations.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/presentation/views/profile/widgets/profile_view_activity_status_widget.dart';
 
 /// Card displaying user account status information
 ///

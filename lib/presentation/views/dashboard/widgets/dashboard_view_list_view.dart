@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:bondhu/core/services/chat_preferences_service.dart';
-import 'package:bondhu/presentation/views/dashboard/widgets/dashboard_view_error_widget.dart';
-import 'package:bondhu/presentation/views/dashboard/widgets/dashboard_view_loading_widget.dart';
-import 'package:bondhu/presentation/views/dashboard/widgets/dashboard_view_list_item_builder.dart';
+import 'package:adda_time/core/services/chat_preferences_service.dart';
+import 'package:adda_time/presentation/views/dashboard/widgets/dashboard_view_error_widget.dart';
+import 'package:adda_time/presentation/views/dashboard/widgets/dashboard_view_loading_widget.dart';
+import 'package:adda_time/presentation/views/dashboard/widgets/dashboard_view_list_item_builder.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
 
 /// A widget for displaying a list of channels with search functionality

@@ -1,4 +1,4 @@
-# Environment Configuration for Bondhu
+# Environment Configuration for Adda Time
 
 ## Overview
 

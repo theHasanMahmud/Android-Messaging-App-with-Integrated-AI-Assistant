@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:bondhu/presentation/l10n/app_localizations.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/presentation/design_system/widgets/custom_text.dart';
-import 'package:bondhu/presentation/views/onboarding/widgets/onboarding_view_animated_tips.dart';
-import 'package:bondhu/presentation/views/onboarding/widgets/onboarding_view_animation.dart';
-import 'package:bondhu/presentation/views/onboarding/widgets/onboarding_view_profile_image.dart';
-import 'package:bondhu/presentation/views/onboarding/widgets/onboarding_view_submit_button.dart';
-import 'package:bondhu/presentation/views/onboarding/widgets/onboarding_view_username_form_field.dart';
+import 'package:adda_time/presentation/l10n/app_localizations.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/presentation/design_system/widgets/custom_text.dart';
+import 'package:adda_time/presentation/views/onboarding/widgets/onboarding_view_animated_tips.dart';
+import 'package:adda_time/presentation/views/onboarding/widgets/onboarding_view_animation.dart';
+import 'package:adda_time/presentation/views/onboarding/widgets/onboarding_view_profile_image.dart';
+import 'package:adda_time/presentation/views/onboarding/widgets/onboarding_view_submit_button.dart';
+import 'package:adda_time/presentation/views/onboarding/widgets/onboarding_view_username_form_field.dart';
 
 /// Main content container for the onboarding page
 ///

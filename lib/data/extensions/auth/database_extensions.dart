@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:bondhu/core/di/dependency_injector.dart';
-import 'package:bondhu/core/interfaces/i_auth_repository.dart';
+import 'package:adda_time/core/di/dependency_injector.dart';
+import 'package:adda_time/core/interfaces/i_auth_repository.dart';
 import 'package:fpdart/fpdart.dart';
 
 extension DatabaseExtensions on FirebaseFirestore {

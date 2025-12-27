@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bondhu/core/services/chat_preferences_service.dart';
-import 'package:bondhu/presentation/blocs/auth_session/auth_session_cubit.dart';
-import 'package:bondhu/presentation/design_system/colors.dart';
-import 'package:bondhu/presentation/design_system/widgets/custom_text.dart';
-import 'package:bondhu/presentation/design_system/widgets/custom_progress_indicator.dart';
-import 'package:bondhu/presentation/views/chat/chat_view.dart';
+import 'package:adda_time/core/services/chat_preferences_service.dart';
+import 'package:adda_time/presentation/blocs/auth_session/auth_session_cubit.dart';
+import 'package:adda_time/presentation/design_system/colors.dart';
+import 'package:adda_time/presentation/design_system/widgets/custom_text.dart';
+import 'package:adda_time/presentation/design_system/widgets/custom_progress_indicator.dart';
+import 'package:adda_time/presentation/views/chat/chat_view.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
 
 class ArchivedChatsView extends StatefulWidget {

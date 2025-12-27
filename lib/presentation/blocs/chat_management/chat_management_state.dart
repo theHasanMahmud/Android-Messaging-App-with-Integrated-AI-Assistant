@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
-import 'package:bondhu/core/constants/enums/chat_failure_enum.dart';
+import 'package:adda_time/core/constants/enums/chat_failure_enum.dart';
 
 class ChatManagementState extends Equatable {
   const ChatManagementState({

@@ -20,7 +20,7 @@ doc/api/
 .flutter-plugins-dependencies
 firebase.json
 lib/firebase_options.dart
-bondhu_app_iml
+adda_time_app_iml
 
 # Miscellaneous
 *.class
@@ -41,7 +41,7 @@ migrate_working_dir/
 *.ipr
 *.iws
 .idea/*
-bondhu_app.iml
+adda_time_app.iml
 
 # Visual Studio Code related
 .classpath

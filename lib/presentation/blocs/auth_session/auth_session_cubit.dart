@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:hydrated_bloc/hydrated_bloc.dart';
-import 'package:bondhu/core/interfaces/i_auth_repository.dart';
-import 'package:bondhu/core/interfaces/i_chat_repository.dart';
-import 'package:bondhu/domain/models/auth/auth_user_model.dart';
-import 'package:bondhu/presentation/blocs/auth_session/auth_session_state.dart';
-import 'package:bondhu/core/di/dependency_injector.dart';
+import 'package:adda_time/core/interfaces/i_auth_repository.dart';
+import 'package:adda_time/core/interfaces/i_chat_repository.dart';
+import 'package:adda_time/domain/models/auth/auth_user_model.dart';
+import 'package:adda_time/presentation/blocs/auth_session/auth_session_state.dart';
+import 'package:adda_time/core/di/dependency_injector.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
 
 /// Manages the authentication session state of the application

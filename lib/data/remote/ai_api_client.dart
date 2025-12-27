@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 import 'package:http/io_client.dart';
 import 'package:flutter/foundation.dart';
-import 'package:bondhu/core/config/env_config.dart';
+import 'package:adda_time/core/config/env_config.dart';
 
 class AiApiClient {
   final _base = 'https://api.openai.com/v1';

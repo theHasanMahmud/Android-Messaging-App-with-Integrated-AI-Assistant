@@ -1,5 +1,5 @@
-import 'package:bondhu/core/constants/enums/auth_failure_enum.dart';
-import 'package:bondhu/domain/models/auth/auth_user_model.dart';
+import 'package:adda_time/core/constants/enums/auth_failure_enum.dart';
+import 'package:adda_time/domain/models/auth/auth_user_model.dart';
 import 'package:fpdart/fpdart.dart';
 
 abstract class IAuthRepository {
