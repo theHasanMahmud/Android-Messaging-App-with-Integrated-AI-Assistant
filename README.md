@@ -205,7 +205,7 @@ lib/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/flutter_social_chat.git
+git clone https://github.com/theHasanMahmud/Android-Messaging-App-with-Integrated-AI-Assistant.git
 cd flutter_social_chat
 ```
 
@@ -354,7 +354,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
 
-For questions or support, please open an issue in the repository.
+For questions or support : hasanmahmudmajumder@gmail.com
 
 ---
 
@@ -367,4 +367,4 @@ For questions or support, please open an issue in the repository.
 
 ---
 
-**Built with ❤️ using Flutter**
+
