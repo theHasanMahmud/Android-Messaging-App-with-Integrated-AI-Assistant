@@ -85,13 +85,13 @@
     <td align="center"><b>Landing Page</b></td>
     <td align="center"><b>Sign In</b></td>
     <td align="center"><b>SMS Verification</b></td>
-    <td align="center"><b>Profile Setup</b></td>
+    
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/df528e80-5b85-48a7-8ed9-0a7670af1f93" width="200"/></td>
     <td><img src="https://github.com/user-attachments/assets/dfbbae03-a31d-414b-839d-adec763febc0" width="200"/></td>
     <td><img src="https://github.com/user-attachments/assets/f9abe4f2-e41b-463a-ba0d-f2d6917f70f4" width="200"/></td>
-    <td><img src="https://github.com/user-attachments/assets/b392e820-00fe-4e49-93cf-2fd3534fd883" width="200"/></td>
+    
   </tr>
 </table>
 
@@ -115,13 +115,13 @@
     <td align="center"><b>Chat View</b></td>
     <td align="center"><b>Message Details</b></td>
     <td align="center"><b>Reactions</b></td>
-    <td align="center"><b>Profile</b></td>
+    
   </tr>
   <tr>
     <td><img src= "https://github.com/user-attachments/assets/123b12f9-605e-484b-a79b-d502422cb356" width="200"/></td>
     <td><img src= "https://github.com/user-attachments/assets/4831a0ce-02db-40d3-a353-2a5c4cb0ee96" width="200"/></td>
     <td><img src= "https://github.com/user-attachments/assets/2a31bf51-766a-4188-9516-344874092b52" width="200"/></td>
-    <td><img src="https://github.com/user-attachments/assets/56061aff-c75f-4c16-bc01-71c0e6b6820a" width="200"/></td>
+    
   </tr>
 </table>
 
