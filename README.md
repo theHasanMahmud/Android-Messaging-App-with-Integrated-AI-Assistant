@@ -88,7 +88,7 @@
     <td align="center"><b>Profile Setup</b></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/263c86d4-0d1e-4bf6-9a97-762f0baf8eb5" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/df528e80-5b85-48a7-8ed9-0a7670af1f93" width="200"/></td>
     <td><img src="https://github.com/user-attachments/assets/dfbbae03-a31d-414b-839d-adec763febc0" width="200"/></td>
     <td><img src="https://github.com/user-attachments/assets/f9abe4f2-e41b-463a-ba0d-f2d6917f70f4" width="200"/></td>
     <td><img src="https://github.com/user-attachments/assets/b392e820-00fe-4e49-93cf-2fd3534fd883" width="200"/></td>
