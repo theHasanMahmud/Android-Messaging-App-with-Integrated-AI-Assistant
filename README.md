@@ -103,9 +103,9 @@
     <td align="center"><b>Chat Options</b></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/c2e6c74c-4a94-4502-936d-295ef333f746" width="200"/></td>
-    <td><img src="https://github.com/user-attachments/assets/a4f3a5db-c060-4fcd-ae10-ef28c3ff2f35" width="200"/></td>
-    <td><img src="https://github.com/user-attachments/assets/b52a1363-dbf7-4500-8409-52e403031340" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/a789a570-c47a-4bd3-a3ca-d1687125cb1a" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/dd8627d9-65a7-42aa-ba9b-d2a081bc8799" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/ca232188-5b8d-461e-a633-68e27c01530a" width="200"/></td>
   </tr>
 </table>
 
@@ -118,9 +118,9 @@
     <td align="center"><b>Profile</b></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/480a9760-07be-4f78-9ded-904e0f7ce7ac" width="200"/></td>
-    <td><img src="https://github.com/user-attachments/assets/1dd38298-cf30-410a-a0c1-170a61d730d9" width="200"/></td>
-    <td><img src="https://github.com/user-attachments/assets/6005b3d5-2faa-495e-b11d-f0f8af38cf20" width="200"/></td>
+    <td><img src= "https://github.com/user-attachments/assets/123b12f9-605e-484b-a79b-d502422cb356" width="200"/></td>
+    <td><img src= "https://github.com/user-attachments/assets/4831a0ce-02db-40d3-a353-2a5c4cb0ee96" width="200"/></td>
+    <td><img src= "https://github.com/user-attachments/assets/2a31bf51-766a-4188-9516-344874092b52" width="200"/></td>
     <td><img src="https://github.com/user-attachments/assets/56061aff-c75f-4c16-bc01-71c0e6b6820a" width="200"/></td>
   </tr>
 </table>
